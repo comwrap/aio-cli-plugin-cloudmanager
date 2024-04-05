@@ -1,5 +1,5 @@
 {
-  "name": "@adobe/aio-cli-plugin-cloudmanager",
+  "name": "@comwrap/aio-cli-plugin-cloudmanager",
   "description": "Cloud Manager commands for the Adobe I/O CLI",
   "version": "4.1.0",
   "author": "Adobe Inc.",
@@ -63,7 +63,7 @@
   "bin": {
     "adobe-cloudmanager-cli": "./bin/run"
   },
-  "homepage": "https://github.com/adobe/aio-cli-plugin-cloudmanager",
+  "homepage": "https://github.com/comwrap/aio-cli-plugin-cloudmanager",
   "keywords": [
     "oclif-plugin"
   ],
@@ -133,7 +133,7 @@
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/adobe/aio-cli-plugin-cloudmanager.git"
+    "url": "https://github.com/comwrap/aio-cli-plugin-cloudmanager.git"
   },
   "scripts": {
     "posttest": "npm run lint",
