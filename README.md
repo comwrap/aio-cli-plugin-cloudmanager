@@ -13,8 +13,11 @@ governing permissions and limitations under the License.
 # This is a fork of the @adobe/aio-cli-plugin-cloudmanager plugin
 
 Due to this issue, I decided to fork the repo and do the minor adjustments necessary so the plugin can connect to the CM API via Oauth Server to Server credentials.
+
 https://github.com/adobe/aio-cli-plugin-cloudmanager/issues/676
+
 credits to @lszajek
+
 You can install this plugin wiht this command
 
 ```sh-session
