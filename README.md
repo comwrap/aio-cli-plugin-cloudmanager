@@ -9,14 +9,20 @@ the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTA
 OF ANY KIND, either express or implied. See the License for the specific language
 governing permissions and limitations under the License.
 -->
-[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/@adobe/aio-cli-plugin-cloudmanager.svg)](https://npmjs.org/package/@adobe/aio-cli-plugin-cloudmanager)
-[![Build Status](https://github.com/adobe/aio-cli-plugin-cloudmanager/workflows/CI%20Build/badge.svg?branch=main)](https://github.com/adobe/aio-cli-plugin-cloudmanager/actions?query=workflow%3A%22CI+Build%22)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Codecov Coverage](https://img.shields.io/codecov/c/github/adobe/aio-cli-plugin-cloudmanager/master.svg?style=flat-square)](https://codecov.io/gh/adobe/aio-cli-plugin-cloudmanager/)
-[![Known Vulnerabilities](https://snyk.io/test/github/adobe/aio-cli-plugin-cloudmanager/badge.svg)](https://snyk.io/test/github/adobe/aio-cli-plugin-cloudmanager)
 
+# This is a fork of the @adobe/aio-cli-plugin-cloudmanager plugin
 
+Due to this issue, I decided to fork the repo and do the minor adjustments necessary so the plugin can connect to the CM API via Oauth Server to Server credentials.
+https://github.com/adobe/aio-cli-plugin-cloudmanager/issues/676
+credits to @lszajek
+You can install this plugin wiht this command
+
+```sh-session
+$ ➜ aio plugins:install https://github.com/comwrap/aio-cli-plugin-cloudmanager 
+```
+This comes in handy if you want to run aio cli in a CI/CD build environment.
+
+Be aware that you will need git in your node container if you are running this inside of node:latest image
 
 # aio-cli-plugin-cloudmanager
 Cloud Manager Plugin for the [Adobe I/O CLI](https://github.com/adobe/aio-cli)
@@ -35,7 +41,7 @@ Cloud Manager Plugin for the [Adobe I/O CLI](https://github.com/adobe/aio-cli)
 # Installation
 
 ```sh-session
-$ aio plugins:install @adobe/aio-cli-plugin-cloudmanager
+$ aio plugins:install https://github.com/comwrap/aio-cli-plugin-cloudmanager 
 ```
 # Updating
 
